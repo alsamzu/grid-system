@@ -1,10 +1,12 @@
 body{
+   
     background: black;
     text-align: center;
 }
 .content{
     display: grid;
     max-width: 970px;
+     margin: 0 auto;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3,minmax(200px,auto));
     grid-gap: 10px;
@@ -21,5 +23,6 @@ body{
 }
 
 #six{
-    grid-row: ;
+
+   grid-row: 2/4;
 }
